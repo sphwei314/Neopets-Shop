@@ -1,0 +1,92 @@
+body {
+    font-family:Tahoma;
+    background-image: url("/Users/sophiawei/coding projects/MKuM.gif");
+    background-repeat: repeat;
+    height: 500px;
+    background-size: cover;
+    
+}
+
+.navbar {
+    background-color: palegoldenrod;
+    padding: 100%;
+    text-align: center;
+    position: fixed;
+    width: 99%;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color:black
+}
+
+.banner {
+    background-color: white;
+    color:black;
+    margin-top:50px;
+    text-align:center;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 10px 0;
+}
+
+#small-pug {
+    height: 150px;
+    width: 150px;
+    /* filter: drop-shadow(1px 1px 1px black); */
+}
+
+.gritter-section {
+    padding: 20px 50px;
+}
+
+#pug {
+    color:#4D00FF;
+    font-size: 100px;
+}
+
+.bold {
+    font-weight:900;
+}
+
+/* a.blue {
+    color:blue;
+} */
+
+#greets ul {
+    list-style-type: none;
+}
+
+.avatar {
+    display: inline-block;
+    background-image: url('../images/pug-dog-breed-profile-1117989-hero-a6ae86cdb7b64214998c9d0c408b46e5.jpg');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 1000%;
+    vertical-align:middle;
+}
+
+.item {
+    background-color: white;
+    margin-left: 10px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid darkgrey
+}
+
+.caption {
+    text-align: center;
+    color: white;
+    width:120px;
+}
+
+.row {
+    padding-left: 300px;
+    padding-right: 300px;
+}
